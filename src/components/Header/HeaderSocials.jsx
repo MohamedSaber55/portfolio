@@ -16,7 +16,7 @@ const HeaderSocials = () => {
             <a href="https://www.instagram.com/mo_saber5" target="_blank" rel="noreferrer">
                 <BsInstagram />
             </a>
-            <a href="https://api.whatsapp.com/send?phone=01210529969" target="_blank" rel="noreferrer">
+            <a href="https://api.whatsapp.com/send?phone=+201210529969" target="_blank" rel="noreferrer">
                 <BsWhatsapp />
             </a>
             <a href="https://t.me/Mo7amed_Saber3" target="_blank" rel="noreferrer">
