@@ -1,0 +1,111 @@
+header {
+    /* min-height: 100vh; */
+    /* background-color: rgb(38, 110, 177); */
+    /* background-color: rgb(24, 8, 61); */
+    padding-top: 7rem;
+    overflow: hidden;
+}
+
+.header__container {
+    text-align: center;
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/* CTA */
+
+.cta {
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+}
+
+
+/* ====================== Header Socials=========================== */
+
+.header__socials {
+    display: flex;
+    gap: 0.8rem;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    bottom: 3rem;
+}
+
+
+.header__socials::after {
+    content: "";
+    width: 1px;
+    height: 2rem;
+    background: var(--color-primary)
+}
+
+
+/* ====================== Me =========================== */
+.me {
+    background: linear-gradient(var(--color-primary), transparent);
+    width: 22rem;
+    height: 30rem;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    /* left: calc(50% - 11rem); */
+    margin-top: 4rem;
+    border-radius: 12rem 12rem 0 0;
+    overflow: hidden;
+    padding: 5rem 1.5rem 1.5rem 1.5rem;
+}
+
+/* ====================== Scroll Down =========================== */
+
+.scroll__down {
+    position: absolute;
+    right: -2.3rem;
+    bottom: 5rem;
+    transform: rotate(90deg);
+    font-weight: 300;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+
+/* =========== Media Query (Medium Devices) =================== */
+
+@media screen and (max-width:1024px) {}
+
+/* =========== Media Query (Small Devices) =================== */
+
+@media screen and (max-width:600px) {
+
+    .me {
+        height: 20rem;
+        width: 15rem;
+    }
+
+    .header__socials::after,
+    .scroll__down {
+        display: none;
+    }
+
+
+    .header__socials {
+        flex-direction: row;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 0;
+        justify-content: center;
+        gap: 1.5rem;
+        margin: 2rem 0 0 0;
+        z-index: 500;
+    }
+}
