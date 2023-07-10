@@ -23,6 +23,7 @@
 
 .contact__option h5 {
     color: var(--color-light);
+    word-wrap: break-word;
 }
 
 .contact__option:hover {
