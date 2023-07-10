@@ -19,7 +19,7 @@ const Navbar = () => {
             <a href="#experience"onClick={() => setActiveNav("#experience")} className={activeNav === "#experience" ? "active" : ""}>
                 <BiBook />
             </a>
-            <a href="#services"onClick={() => setActiveNav("#services")} className={activeNav === "#services" ? "active" : ""}>
+            <a href="#portfolio"onClick={() => setActiveNav("#portfolio")} className={activeNav === "#portfolio" ? "active" : ""}>
                 <RiServiceLine />
             </a>
             <a href="#contact"onClick={() => setActiveNav("#contact")} className={activeNav === "#contact" ? "active" : ""}>
