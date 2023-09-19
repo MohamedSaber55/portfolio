@@ -8,6 +8,7 @@ import weatherImg from "./../../assets/weather.jpeg"
 import downtubeImg from "./../../assets/downtube.jpeg"
 import todolistImg from "./../../assets/todolist.jpeg"
 import egyptionpartyImg from "./../../assets/egyptionparty.jpeg"
+import secure_techImg from "./../../assets/secure_tech.png"
 
 const data = [
     {
@@ -23,6 +24,13 @@ const data = [
         title: "Filmoon Movies Project",
         github: "https://github.com/MohamedSaber55/Movies-TVs-Project",
         demo: "https://mohamedsaber55.github.io/Movies-TVs-Project/"
+    },
+    {
+        id: 9,
+        image: secure_techImg,
+        title: "SecureTech Website",
+        github: "https://github.com/MohamedSaber55/secure_tech",
+        demo: "https://securetech.onrender.com"
     },
     {
         id: 3,
