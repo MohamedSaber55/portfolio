@@ -9,7 +9,7 @@ import downtubeImg from "./../../assets/downtube.jpeg"
 import todolistImg from "./../../assets/todolist.jpeg"
 import egyptionpartyImg from "./../../assets/egyptionparty.jpeg"
 import secure_techImg from "./../../assets/secure_tech.png"
-
+import matrixImage from "./../../assets/matrix.png"
 const data = [
     {
         id: 1,
@@ -31,6 +31,13 @@ const data = [
         title: "SecureTech Website",
         github: "https://github.com/MohamedSaber55/secure_tech",
         demo: "https://securetech.onrender.com"
+    },
+    {
+        id: 10,
+        image: matrixImage,
+        title: "Matrix",
+        github: "https://github.com/MohamedSaber55/games",
+        demo: "https://games-sooty-three.vercel.app/"
     },
     {
         id: 3,
