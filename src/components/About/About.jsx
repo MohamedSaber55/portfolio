@@ -34,7 +34,7 @@ const About = () => {
                         </article>
                     </div>
                     <p>
-                        MERN Stack Developer with one year of experience developing web, and business intelligence solutions using React.JS, Node.JS, Express.JS, MongoDB and SQLServer. Expertise in requirements analysis, design, development, testing,maintenance, enhancement, and production support of business applications.Certified Web Development Professional with a deep passion for technology,extensive technological expertise, and well-developed teamwork abilities
+                        Full Stack Developer with two years of experience developing web, and business intelligence solutions using React.JS, Next.JS, Node.JS, Express.JS, MongoDB and MySql. Expertise in requirements analysis, design, development, testing,maintenance, enhancement, and production support of business applications. Certified Web Development Professional with a deep passion for technology, extensive technological expertise, and well-developed teamwork abilities
                     </p>
                     <a href="#contact" className='btn btn-primary'>Let's Talk</a>
                 </div>
