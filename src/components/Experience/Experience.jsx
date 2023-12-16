@@ -34,6 +34,13 @@ const Experience = () => {
                         <article className="experience__details">
                             <BsFillPatchCheckFill className="experience__details-icon" />
                             <div className="">
+                                <h4>TypeScript</h4>
+                                <small className="text-light">Experienced</small>
+                            </div>
+                        </article>
+                        <article className="experience__details">
+                            <BsFillPatchCheckFill className="experience__details-icon" />
+                            <div className="">
                                 <h4>BootStrap</h4>
                                 <small className="text-light">Experienced</small>
                             </div>
@@ -49,6 +56,20 @@ const Experience = () => {
                             <BsFillPatchCheckFill className="experience__details-icon" />
                             <div className="">
                                 <h4>React</h4>
+                                <small className="text-light">Experienced</small>
+                            </div>
+                        </article>
+                        <article className="experience__details">
+                            <BsFillPatchCheckFill className="experience__details-icon" />
+                            <div className="">
+                                <h4>Redux</h4>
+                                <small className="text-light">Experienced</small>
+                            </div>
+                        </article>
+                        <article className="experience__details">
+                            <BsFillPatchCheckFill className="experience__details-icon" />
+                            <div className="">
+                                <h4>Vite</h4>
                                 <small className="text-light">Experienced</small>
                             </div>
                         </article>
@@ -89,7 +110,7 @@ const Experience = () => {
                             <BsFillPatchCheckFill className="experience__details-icon" />
                             <div className="">
                                 <h4>MySQL</h4>
-                                <small className="text-light">Basic</small>
+                                <small className="text-light">Experienced</small>
                             </div>
                         </article>
                         <article className="experience__details">
@@ -102,7 +123,7 @@ const Experience = () => {
                         <article className="experience__details">
                             <BsFillPatchCheckFill className="experience__details-icon" />
                             <div className="">
-                                <h4>GraphQL</h4>
+                                <h4>Sequelize</h4>
                                 <small className="text-light">Experienced</small>
                             </div>
                         </article>
@@ -110,6 +131,20 @@ const Experience = () => {
                             <BsFillPatchCheckFill className="experience__details-icon" />
                             <div className="">
                                 <h4> Socket.IO</h4>
+                                <small className="text-light">Intermediate</small>
+                            </div>
+                        </article>
+                        <article className="experience__details">
+                            <BsFillPatchCheckFill className="experience__details-icon" />
+                            <div className="">
+                                <h4> RestAPI</h4>
+                                <small className="text-light">Experienced</small>
+                            </div>
+                        </article>
+                        <article className="experience__details">
+                            <BsFillPatchCheckFill className="experience__details-icon" />
+                            <div className="">
+                                <h4>GraphQL</h4>
                                 <small className="text-light">Intermediate</small>
                             </div>
                         </article>

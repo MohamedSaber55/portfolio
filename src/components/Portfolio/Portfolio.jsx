@@ -10,6 +10,7 @@ import todolistImg from "./../../assets/todolist.jpeg"
 import egyptionpartyImg from "./../../assets/egyptionparty.jpeg"
 import secure_techImg from "./../../assets/secure_tech.png"
 import matrixImage from "./../../assets/matrix.png"
+import foodieImage from "./../../assets/foodie.png"
 const data = [
     {
         id: 1,
@@ -45,6 +46,13 @@ const data = [
         title: "Weather Project",
         github: "https://github.com/MohamedSaber55/Weather-App",
         demo: "https://mohamedsaber55.github.io/Weather-App/"
+    },
+    {
+        id: 11,
+        image: foodieImage,
+        title: "Restaurant (Foodie)",
+        github: "https://github.com/MohamedSaber55/Restaurant",
+        demo: "https://restaurant-liart-two.vercel.app/"
     },
     {
         id: 4,
